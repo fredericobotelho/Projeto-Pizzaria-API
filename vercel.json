@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "dist/server.js",
+            "use": "@evercel/node",
+            "config": { "includeFiles": ["dist/**"] }
+        }
+    ],
+    "routes":[
+        {
+            "srv": "/(.*)",
+            "dest": "dist/server.js"
+        }
+    ]
+
+}

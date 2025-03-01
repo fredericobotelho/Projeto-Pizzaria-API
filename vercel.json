@@ -9,7 +9,8 @@
     ],
     "routes":[
         {
-            "srv": "/(.*)",
+            
+           "srv": "/(.*)",
             "dest": "dist/server.js"
         }
     ]
